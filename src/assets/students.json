@@ -1,0 +1,317 @@
+[
+  {
+    "id": "CSE101",
+    "name": "Introduction to Computer Science",
+    "instructor": "Dr. Alan Turing",
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 21,
+        "email": "john@example.com",
+        "phone": "555-1234",
+        "address": "123 Main St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Jane Doe",
+          "relation": "Mother",
+          "phone": "555-5678"
+        },
+        "performance": "A",
+        "attendance": "95%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "A"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "A-"
+          },
+          {
+            "name": "Project 1",
+            "grade": "A"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 22,
+        "email": "jane@example.com",
+        "phone": "555-2345",
+        "address": "456 Elm St, Springfield, IL",
+        "emergency_contact": {
+          "name": "John Smith",
+          "relation": "Father",
+          "phone": "555-6789"
+        },
+        "performance": "B+",
+        "attendance": "90%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "B+"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "B"
+          },
+          {
+            "name": "Project 1",
+            "grade": "B+"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "B+"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A-"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ECE202",
+    "name": "Electronic Circuits",
+    "instructor": "Dr. Nikola Tesla",
+    "students": [
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "age": 23,
+        "email": "alice@example.com",
+        "phone": "555-3456",
+        "address": "789 Oak St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Eve Johnson",
+          "relation": "Sister",
+          "phone": "555-7890"
+        },
+        "performance": "A-",
+        "attendance": "93%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "A-"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "B+"
+          },
+          {
+            "name": "Project 1",
+            "grade": "A-"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "A-"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MAT303",
+    "name": "Advanced Mathematics",
+    "instructor": "Dr. Isaac Newton",
+    "students": [
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "age": 24,
+        "email": "bob@example.com",
+        "phone": "555-4567",
+        "address": "321 Maple St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Tom Brown",
+          "relation": "Brother",
+          "phone": "555-8901"
+        },
+        "performance": "B",
+        "attendance": "88%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "B+"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "B"
+          },
+          {
+            "name": "Project 1",
+            "grade": "B"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "B"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "B"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "B+"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Charlie Davis",
+        "age": 21,
+        "email": "charlie@example.com",
+        "phone": "555-5678",
+        "address": "654 Pine St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Alice Davis",
+          "relation": "Mother",
+          "phone": "555-9012"
+        },
+        "performance": "A",
+        "attendance": "97%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "A"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "A"
+          },
+          {
+            "name": "Project 1",
+            "grade": "A"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A+"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PHY404",
+    "name": "Quantum Physics",
+    "instructor": "Dr. Albert Einstein",
+    "students": [
+      {
+        "id": 6,
+        "name": "David Evans",
+        "age": 22,
+        "email": "david@example.com",
+        "phone": "555-6789",
+        "address": "987 Birch St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Carol Evans",
+          "relation": "Sister",
+          "phone": "555-0123"
+        },
+        "performance": "B+",
+        "attendance": "92%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "B+"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "B"
+          },
+          {
+            "name": "Project 1",
+            "grade": "B+"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "B+"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A-"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Eva Green",
+        "age": 23,
+        "email": "eva@example.com",
+        "phone": "555-7890",
+        "address": "543 Cedar St, Springfield, IL",
+        "emergency_contact": {
+          "name": "Frank Green",
+          "relation": "Father",
+          "phone": "555-1234"
+        },
+        "performance": "A",
+        "attendance": "96%",
+        "assignments": [
+          {
+            "name": "Assignment 1",
+            "grade": "A"
+          },
+          {
+            "name": "Assignment 2",
+            "grade": "A-"
+          },
+          {
+            "name": "Project 1",
+            "grade": "A"
+          },
+          {
+            "name": "Midterm Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Final Exam",
+            "grade": "A"
+          },
+          {
+            "name": "Class Participation",
+            "grade": "A+"
+          }
+        ]
+      }
+    ]
+  }
+]

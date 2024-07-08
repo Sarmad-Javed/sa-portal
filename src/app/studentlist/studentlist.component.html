@@ -1,0 +1,76 @@
+<div class="header">
+  <div class="d-flex logo-container">
+    <img src="../../assets/logo.jpeg" class="logo" />
+    <h3 class="title m-0">School of Aeronautics</h3>
+  </div>
+
+  <div class="user-info">
+    <p>{{ userInfo?.email }}</p>
+  </div>
+</div>
+<div class="card student-list-card">
+  <h2>Student List</h2>
+  <p-table
+    [value]="filteredStudents"
+    selectionMode="single"
+    [(selection)]="selectedStudent"
+    (onRowSelect)="onRowSelect($event)"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th pSortableColumn="name">
+          Name <p-sortIcon field="name"></p-sortIcon>
+        </th>
+        <th pSortableColumn="age">Age <p-sortIcon field="age"></p-sortIcon></th>
+        <th pSortableColumn="email">
+          Email <p-sortIcon field="email"></p-sortIcon>
+        </th>
+        <th pSortableColumn="phone">
+          Phone <p-sortIcon field="phone"></p-sortIcon>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <input
+            pInputText
+            type="text"
+            (input)="applyFilter($event, 'name')"
+            placeholder="Search by name"
+          />
+        </th>
+        <th>
+          <input
+            pInputText
+            type="text"
+            (input)="applyFilter($event, 'age')"
+            placeholder="Search by age"
+          />
+        </th>
+        <th>
+          <input
+            pInputText
+            type="text"
+            (input)="applyFilter($event, 'email')"
+            placeholder="Search by email"
+          />
+        </th>
+        <th>
+          <input
+            pInputText
+            type="text"
+            (input)="applyFilter($event, 'phone')"
+            placeholder="Search by phone"
+          />
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-student>
+      <tr [pSelectableRow]="student">
+        <td>{{ student.name }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.phone }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

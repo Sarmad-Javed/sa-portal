@@ -1,0 +1,17 @@
+.chart{
+    canvas {
+        position: relative;
+        width: 100% !important;
+        height: 120px !important;
+      }
+    &-title{
+        font-size: 18px;
+        color:$primary-text ;
+    }
+    .p-card-content{
+    padding-bottom: 0px;
+    }
+    .p-card-body{
+        padding: 0px;
+    }
+}

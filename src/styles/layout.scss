@@ -1,0 +1,118 @@
+.c-notification-icon {
+    width: 24px;
+    padding: 0px 9px 0px 9px;
+    height: 24px;
+    fill: rgb(69, 69, 69);
+    /* You can change the color */
+}
+
+.sidebar-container {
+    background-color: $main-bg-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 63px;
+    z-index: 3;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 84px;
+        min-height: 34rem;
+        position: relative;
+        padding: 2.125rem 0.5rem;
+        top: 3rem;
+        background: $sidebar-bg;
+
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 1rem;
+
+            .icon {
+                opacity: 0.5;
+                height: 37px;
+                width: 34px;
+            }
+
+            b {
+                color: $sidebar-text-color;
+                opacity: 0.5;
+                font-size: 14px;
+            }
+        }
+
+        .item:hover,
+        .active {
+            .icon {
+                opacity: 1;
+            }
+
+            b {
+                color: $sidebar-text-color;
+                opacity: 1;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.top-navbar {
+    background-color: $top-navbar-bg-color;
+    color: $top-navbar-text-color;
+    height: $top-navbar-height;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
+    width: 100%;
+    padding: 16px;
+
+    //position
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    //display
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        margin-left: 1.25rem;
+
+        .logo-text {
+            margin: 0px;
+            padding: 0px;
+            font-size: 1.125rem;
+            margin-left: 0.25rem;
+            color: $logo-color;
+        }
+    }
+
+    .nav-actions {
+        padding: 0px;
+
+        .user-title {
+            font-size: 12px;
+            padding: 0px 9px 0px 9px;
+        }
+    }
+}
+
+.main-content {
+    background-color: $main-bg-color;
+    margin-left: 5.1rem;
+    margin-top: 62px;
+    height: 100%;
+    width: 100%;
+}

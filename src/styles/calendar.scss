@@ -1,0 +1,53 @@
+.p-datepicker table td.p-datepicker-today>span {
+    background-color: #ffff;
+    color: #65748b !important;
+    border-bottom: solid 3px #65748b !important;
+}
+
+.p-datepicker-calendar>thead {
+    color: #65748b;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p-datepicker-calendar>tbody {
+    color: #a2a1a1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p-datepicker {
+    border: none;
+
+    .p-datepicker-title>.p-datepicker-month,
+    .p-datepicker-title>.p-datepicker-year {
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    .p-datepicker-title>.p-datepicker-year {
+        color: #a2a1a1 !important;
+    }
+
+    .p-datepicker-title>.p-datepicker-month {
+        color: #65748b  !important;
+    }
+}
+
+.p-datepicker .p-datepicker-header .p-datepicker-prev,
+.p-datepicker .p-datepicker-header .p-datepicker-next {
+    border: 1px solid #FBD3DA;
+    background-color: #FBD3DA;
+    // background-color: #FF385C;
+}
+
+.p-datepicker-header>button:hover {
+    border: 1px solid #FBD3DA !important;
+    background-color: #FBD3DA !important;
+    // background-color: #FF385C;
+}

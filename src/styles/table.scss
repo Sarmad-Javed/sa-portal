@@ -1,0 +1,41 @@
+.hsa-list {
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    background-color: #F5F6F6;
+
+}
+.p-datatable .p-datatable-header {
+    padding: 0rem;
+    background: #F5F6F6;
+}
+
+
+.p-datatable .p-datatable-thead>tr>th {
+    text-align: left;
+    padding: 1rem 1rem;
+    color: #6F7070;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #D9D9D9;
+}
+
+.p-datatable-thead tr {
+    box-shadow: 1px 1px 6px 0px #000000 !important;
+    font-size: 12px !important;
+    position: relative;
+    /* top: 0; */
+    z-index: 2;
+}
+
+.p-datatable .p-datatable-tbody>tr,.p-datatable .p-datatable-thead>tr {
+    background: #F5F6F6;
+    font-size: 15px !important;
+    color: $primary-text;
+    border-bottom: solid 1px #D9D9D9;
+    th,td{
+        padding: 1rem 0.5rem;
+    }
+}

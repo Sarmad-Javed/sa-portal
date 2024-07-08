@@ -1,0 +1,13 @@
+.p-accordion-content {
+    border: none !important;
+    background:$main-bg-color !important;
+    padding: 1.25rem 0rem !important;;
+}
+
+.p-accordion-header-link{
+  text-decoration: none ;
+  font-size: 1.25rem;
+  color: $primary-text !important;
+  background: #F0F5FD!important;
+  font-weight: bold;
+}

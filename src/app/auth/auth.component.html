@@ -1,0 +1,42 @@
+<div class="card">
+    <h3 class="title-text text-center">School of Aeronautics</h3>
+    <div class="d-flex justify-content-center">
+       
+        <img class="title-img" src="../../assets/logo.gif" alt="">
+    </div>
+    <div *ngIf="isSignIn; else signUpTemplate">
+      <h2>Sign In</h2>
+      <form (ngSubmit)="onSignIn()">
+        <div class="p-field" class="mt-2">
+          <label for="username">Username</label>
+          <input id="username" type="text" pInputText [(ngModel)]="signInData.username" name="username" required />
+        </div>
+        <div class="p-field" class="mt-2">
+          <label for="password">Password</label>
+          <input id="password" type="password" pInputText [(ngModel)]="signInData.password" name="password" required />
+        </div>
+        <button type="submit" pButton label="Sign In" class="mt-2"></button>
+      </form>
+      <p class="mt-2 text-center">Create new account. <span class="link"  (click)="toggleForm()">Sign Up</span></p>
+    </div>
+    <ng-template #signUpTemplate>
+      <h2>Sign Up</h2>
+      <form (ngSubmit)="onSignUp()">
+        <div class="p-field" class="mt-2">
+          <label for="email">Email</label>
+          <input id="email" type="email" pInputText [(ngModel)]="signUpData.email" name="email" required />
+        </div>
+        <div class="p-field" class="mt-2">
+          <label for="password">Password</label>
+          <input id="password" type="password" pInputText [(ngModel)]="signUpData.password" name="password" required />
+        </div>
+        <div class="p-field" class="mt-2">
+          <label for="confirmPassword">Confirm Password</label>
+          <input id="confirmPassword" type="password" pInputText [(ngModel)]="signUpData.confirmPassword" name="confirmPassword" required />
+        </div>
+        <button type="submit" pButton label="Sign Up" class="mt-2"></button>
+      </form>
+      <p class="mt-2 text-center">Already have an account? <span class="link"  (click)="toggleForm()">Sign In</span></p>
+    </ng-template>
+  </div>
+  

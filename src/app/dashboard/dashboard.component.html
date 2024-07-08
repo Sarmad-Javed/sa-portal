@@ -1,0 +1,28 @@
+<div class="header">
+  <div class="d-flex logo-container">
+    <img src="../../assets/logo.jpeg" class="logo" />
+    <h3 class="title m-0">School of Aeronautics</h3>
+  </div>
+
+  <div class="user-info">
+    <p>{{ userInfo?.email }}</p>
+  </div>
+</div>
+<div class="card">
+    <h3 class="title-text text-center">School of Aeronautics</h3>
+    <div class="d-flex justify-content-center">
+        <img class="title-img" src="../../assets/logo.gif" alt="">
+    </div>
+  <h4>Search Course</h4>
+  <div class="p-field" class="mt-2">
+    <label for="courseId">Enter Course ID</label>
+    <input id="courseId" type="text" pInputText [(ngModel)]="courseId" />
+  </div>
+  <button
+    class="mt-2"
+    type="button"
+    pButton
+    label="Search"
+    (click)="searchCourse()"
+  ></button>
+</div>

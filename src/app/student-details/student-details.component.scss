@@ -1,0 +1,19 @@
+ 
+.card {
+    margin: 20px;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .info-grid p {
+    margin: 5px 0;
+  }
+  
+  .assignments-table {
+    margin-top: 20px;
+  }
+  
